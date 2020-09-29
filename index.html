@@ -1,0 +1,380 @@
+<html lang="zh-CN">
+<head>
+    <title>迎新服务网</title>
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="Copyright" content="zfsoft">
+    <script type="text/javascript">
+        //全局变量
+        var _path = "/yxxt-v5";
+        var _systemPath = "/yxxt-v5";
+        var _stylePath = "/zftal-ui-v5-1.1.1";
+    </script>
+    <!--jQuery核心框架库 -->
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/jquery-min.js?ver=5619a2843a12798d229ca153546fb352"></script>
+    <!--jQuery浏览器检测 -->
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/yxxt-v5/js/browse/browse-judge.js?ver=5619a2843a12798d229ca153546fb352"></script>
+
+    <!--Bootstrap布局框架-->
+    <!--Bootstrap布局框架-->
+    <link rel="stylesheet" type="text/css"
+          href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootstrap/css/bootstrap.min.css?ver=5619a2843a12798d229ca153546fb352">
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootstrap/js/bootstrap.min.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+    <!--zftal-ui样式-->
+    <!--jQuery常用工具扩展库：基础工具,资源加载工具,元素尺寸相关工具 -->
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.utils.contact-min.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+    <!--jQuery基础工具库：$.browser,$.cookie,$.actual等 -->
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.plugins.contact-min.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+    <!--jQuery自定义event事件库 -->
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.events.contact-min.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+    <!--JavaScript对象扩展库：Array,Date,Number,String -->
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.extends.contact-2.min.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+    <!--国际化js库 -->
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/i18n/jquery.i18n-min.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+    <!--业务框架前端脚本国际化库-->
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.zftal_zh_CN-min.js?ver=5619a2843a12798d229ca153546fb352"></script>
+    <!--Bootbox弹窗插件-->
+    <script src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootbox/bootbox.concat-min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript" charset="utf-8"></script>
+    <script src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootbox/lang/zh_CN-min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript" charset="utf-8"></script>
+    <link rel="stylesheet" type="text/css"
+          href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootbox/css/bootbox-min.css?ver=5619a2843a12798d229ca153546fb352">
+    <!--jQuery.chosen下拉框美化插件-->
+    <link rel="stylesheet" type="text/css"
+          href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/chosen/css/chosen-min.css?ver=5619a2843a12798d229ca153546fb352">
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/utils/jquery.utils.pinyin.min.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/chosen/jquery.choosen.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/chosen/jquery.chosen-additional.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/chosen/lang/zh_CN-min.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+    <!--IE浏览器html5、CSS3兼容插件-->
+    <!--[if lt IE 9]>
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/html5shiv.min.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/respond.min.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+    <![endif]-->
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/imageViewer/js/viewerjs/viewer.v0.1.0.js"></script>
+    <link rel="stylesheet"
+          href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/imageViewer/js/viewerjs/viewer.v0.1.0.css"
+          type="text/css">
+    <script type="text/javascript" src="http://fresh.ahau.edu.cn/yxxt-v5/js/plugins/areaSelection/area-selection.js"
+            charset="utf-8"></script>
+    <link type="text/css" href="http://fresh.ahau.edu.cn/yxxt-v5/js/plugins/areaSelection/area-selection.css"
+          rel="stylesheet">    <!--业务框架jQuery全局设置和通用函数库-->
+    <script type="text/javascript" src="jquery.zftal.contact-min.js"></script>
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/yxxt-v5/js/global/public-zx.js?ver=5619a2843a12798d229ca153546fb352"></script>
+    <!--laydate日期控件-->
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/laydate-v5.0.9/laydate.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+    <link rel="stylesheet"
+          href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/laydate-v5.0.9/theme/default/laydate.css?v=5.0.9"
+          id="layuicss-laydate">
+    <link rel="stylesheet" type="text/css"
+          href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/laydate-v5.0.9/theme/zfcolor/laydate.css?ver=5619a2843a12798d229ca153546fb352">
+    <script src="/zftal-ui-v5-1.1.1/assets/plugins/jquery.dragsort/jquery.dragsort.min.js"></script>
+    <style type="text/css">
+        body, html {
+            height: 100%;
+            width: 100%;
+            position: relative;
+        }
+    </style>
+
+    <meta content="webkit" name="renderer">
+    <meta http-equiv="Content-Type" content="text/html; charset=UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0, user-scalable=no">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta content="always" name="referrer">
+    <meta name="Copyright" content="zfsoft">
+    <meta name="description" content="新生服务网">
+    <meta name="author" content="zhengfang">
+    <meta name="keyword" content="新生服务网">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="”renderer”" content="”webkit”">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <link rel="stylesheet" type="text/css"
+          href="http://fresh.ahau.edu.cn/yxxt-v5/css/zzfw/style.css?ver=5619a2843a12798d229ca153546fb352">
+    <script src="http://fresh.ahau.edu.cn/yxxt-v5/js/zzfw/main/main.js" type="text/javascript"></script>
+    <!--密码强度展示插件-->
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/utils/jquery.utils.strength.min.js?ver=5619a2843a12798d229ca153546fb352"></script>
+    <!--<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>-->
+    <style>
+        .loading-box {
+            position: fixed;
+            top: 0;
+            bottom: 0;
+            left: 0;
+            right: 0;
+            background: rgba(0, 0, 0, 0.2);
+            z-index: 998;
+        }
+
+        .loading-img {
+            position: fixed;
+            top: 50%;
+            left: 50%;
+            width: 5%;
+            transform: translate(-50%, -50%);
+            border-radius: 6px;
+            z-index: 999;
+        }
+    </style>
+    <script>
+        function loadingTurnOff() {
+            $('#isShowLoading').hide();
+        }
+
+        function loadingTurnOn() {
+            $('#isShowLoading').show();
+        }
+    </script>
+
+
+</head>
+<body class="service-page home-page basic-skin">
+<!-- page content start -->
+
+<div class="loading-box" id="isShowLoading" style="display:none;">
+    <img class="loading-img" src="http://fresh.ahau.edu.cn/yxxt-v5/img/loading.gif" alt="">
+</div>
+<input type="hidden" id="csrftoken" name="csrftoken" value="">
+<input type="hidden" name="lqh" id="lqh" value="18112763">
+<input type="hidden" id="sfsyxz" name="sfsyxz" value="0">
+<input type="hidden" id="zxdtblzt" name="zxdtblzt" value="1">
+<input type="hidden" id="zxlchjid" name="zxlchjid" value="AC54219930D30143E0532691D572D929">
+<nav class="navbar navbar-default ky_header">
+    <div class="container">
+        <div class="row">
+            <div class="col-md-2 col-sm-4 hidden-xs">
+                <a href="javascript:void(0);" class="navbar-brand hidden-xs"><img
+                        src="http://fresh.ahau.edu.cn/yxxt-v5/img/zzfw/top_logo.png"></a>
+            </div>
+            <div class="col-md-7 col-sm-7">
+                <nav class="navbar navbar-static" role="navigation">
+                    <ul class="nav navbar-nav" id="menuUi">
+                        <li class="open">
+                            <a class="" data-toggle="" data-src="http://fresh.ahau.edu.cn/zzfw/grzx/homePage.zf"
+                               data-addtab="N01" onclick="toMenu(this,0)" data-tab-layout="default"
+                               data-blank-layout="default" title="首页">首页</a>
+                        </li>
+                        <li class="">
+                            <a class="" data-toggle="" data-src="http://fresh.ahau.edu.cn/web/zxzx/toZxzx.zf"
+                               data-addtab="N03" onclick="toMenu(this,0)" data-tab-layout="default"
+                               data-blank-layout="default" title="咨询">咨询</a>
+                        </li>
+                        <li class="">
+                            <a class="" data-toggle="" data-src="http://fresh.ahau.edu.cn/zzfw/tzgg/cxTzgg.zf"
+                               data-addtab="N04" onclick="toMenu(this,0)" data-tab-layout="default"
+                               data-blank-layout="default" title="公告">公告</a>
+                        </li>
+                        <li class="">
+                            <a class="" data-toggle="" data-src="http://fresh.ahau.edu.cn/qj/xsqj/cx.zf"
+                               data-addtab="QJ01" onclick="toMenu(this,0)" data-tab-layout="default"
+                               data-blank-layout="default" title="请销假">请销假</a>
+                        </li>
+                    </ul>
+                </nav>
+            </div>
+            <div class="col-md-3 col-sm-1">
+                <ul class="nav navbar-nav pull-left navbar-right nav2">
+                    <li id="grmenu" class="hidden-xs">
+                        <a href="javascript:void(0);" class="dropdown-toggle navbar_img" data-toggle="dropdown"
+                           title="个人中心">
+                            <span>您好，张艺兴</span><i class="fa fa-caret-down"></i><img src=""></a>
+                        <ul class="dropdown-menu" style="background-color:#536b7f">
+                            <li>
+                                <a href="javascript:void(0);" style="display:none;">张艺兴</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li class="divider mobxx"></li>
+                            <li>
+                                <a href="javascript:void(0);" onclick="xgmm()">修改密码</a>
+                            </li>
+
+                            <li class="divider"></li>
+                            <li>
+                                <a href="javascript:void(0);" onclick="zzfwskin('skin2');">换肤：蓝色</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="javascript:void(0);" onclick="zzfwskin('skin1');">换肤：蓝灰色</a>
+                            </li>
+                            <li class="divider"></li>
+                            <li>
+                                <a href="javascript:void(0);" onclick="logout()">退出</a>
+                            </li>
+                        </ul>
+                    </li>
+
+                    <div class="hidden-lg hidden-md hidden-sm">
+                        <h3 class="system-title">自助报到</h3>
+                        <button type="button" id="menu" class="navbar-toggle collapsed" data-toggle="collapse"
+                                data-target="#navbar_index">
+                            <span class="sr-only">Toggle navigation</span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                            <span class="icon-bar"></span>
+                        </button>
+                    </div>
+                </ul>
+            </div>
+        </div>
+    </div>
+</nav>
+<div class="navbar_index" id="navbar_index">
+    <nav class="navbar navbar-static" role="navigation">
+        <ul class="nav navbar-nav">
+            <li class="message-li clearfix">
+                <div class="photo-img" style="margin-left: 22%;">
+                    <img src="brzp.png">
+                </div>
+                <div class="user-name">
+                    张艺兴
+                </div>
+            </li>
+            <li class="message-li clearfix">
+                <div class="user-name">
+                    校区：&nbsp;&nbsp; 安徽农业大学
+                </div>
+            </li>
+            <li class="dropdown mobxx">
+                <a class="dropdown-toggle tzmeun" data-toggle="dropdown" href="javascript:void(0);"
+                   data-src="/zzfw/grzx/homePage.zf" data-addtab="N01" data-cdlx="0" data-tab-layout="default"
+                   data-blank-layout="default" title="首页">首页</a>
+            </li>
+            <li class="dropdown mobxx">
+                <a class="dropdown-toggle tzmeun" data-toggle="dropdown" href="javascript:void(0);"
+                   data-src="/web/zxzx/toZxzx.zf" data-addtab="N03" data-cdlx="0" data-tab-layout="default"
+                   data-blank-layout="default" title="咨询">咨询</a>
+            </li>
+            <li class="dropdown mobxx">
+                <a class="dropdown-toggle tzmeun" data-toggle="dropdown" href="javascript:void(0);"
+                   data-src="/zzfw/tzgg/cxTzgg.zf" data-addtab="N04" data-cdlx="0" data-tab-layout="default"
+                   data-blank-layout="default" title="公告">公告</a>
+            </li>
+            <li class="dropdown mobxx open">
+                <a class="dropdown-toggle tzmeun" data-toggle="dropdown" href="javascript:void(0);"
+                   data-src="/qj/xsqj/cx.zf" data-addtab="QJ01" data-cdlx="0" data-tab-layout="default"
+                   data-blank-layout="default" title="请销假" aria-expanded="true">请销假</a>
+            </li>
+            <!-- <li class="dropdown mobxx">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="grxx()" title="个人信息">个人信息</a>
+            </li> -->
+            <li class="dropdown mobxx">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="ckSsxx()"
+                   title="我的宿舍">我的宿舍</a>
+            </li>
+            <li class="dropdown mobxx">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="ckJfxx()"
+                   title="我的费用">我的费用</a>
+            </li>
+            <li class="dropdown mobxx">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="ckZyzxx()"
+                   title="我的辅导员">我的辅导员</a>
+            </li>
+            <li class="dropdown mobxx">
+                <a class="dropdown-toggle" data-toggle="dropdown" href="javascript:void(0);" onclick="xgmm()"
+                   title="修改密码">修改密码</a>
+            </li>
+            <li class="dropdown">
+                <a class="dropdown-toggle logout" data-toggle="dropdown" href="javascript:void(0);" onclick="logout()"
+                   data-tab-layout="default" data-blank-layout="default">退出</a>
+            </li>
+        </ul>
+    </nav>
+</div>
+<div id="content">
+
+
+</div>
+<!--在线咨询内嵌使用-->
+<iframe src="" name="myFrame" id="myFrame" style="width: 100%; height: 100%; border: 0px none;">
+
+</iframe>
+<div class="footer hidden-xs fixed-footer" style="margin: 0px; background: rgb(43, 58, 65) none repeat scroll 0% 0%;">
+    <div class="container">
+        <div class="col-md-12 col-sm-12">
+            <p>版权所有© Copyright 1999-2020 中国 正方软件股份有限公司 Ver V5.2.1&nbsp; &nbsp;浙江省杭州市西湖区紫霞街176号互联网创新创业园2号301</p>
+        </div>
+    </div>
+</div>
+
+<!-- page content end -->
+
+
+<link rel="stylesheet" type="text/css"
+      href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/validation/css/jquery.validate-min.css?ver=5619a2843a12798d229ca153546fb352">
+<script type="text/javascript"
+        src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/validation/js/jquery.validate-min.js?ver=5619a2843a12798d229ca153546fb352"
+        charset="utf-8"></script>
+<script type="text/javascript"
+        src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/validation/js/jquery.validate.contact-min.js?ver=5619a2843a12798d229ca153546fb352"
+        charset="utf-8"></script>
+<script type="text/javascript"
+        src="http://fresh.ahau.edu.cn/yxxt-v5/js/plugins/validation/jquery.validate.methods.contact-min.js?ver=5619a2843a12798d229ca153546fb352"
+        charset="utf-8"></script>
+<script type="text/javascript"
+        src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/validation/lang/zh_CN-min.js?ver=5619a2843a12798d229ca153546fb352"
+        charset="utf-8"></script>
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('[data-toggle*="validation"]').trigger("validation");
+    });
+</script>
+<script>
+    function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+            if (pair[0] === variable) {
+                return pair[1];
+            }
+        }
+        return false;
+    }
+</script>
+<script>
+    document.getElementById("myFrame").src = "neibu.html?"+"duration="+getQueryVariable("duration")+"&reason="+getQueryVariable("reason")+"&start_time="+getQueryVariable("start_time")+"&end_time="+getQueryVariable("end_time")+"&submit_time="+getQueryVariable("submit_time")
+
+    function getDetail() {
+        document.getElementById("myFrame").src = "detail.html?"+"name="+getQueryVariable("name")+"&detail_reason="+getQueryVariable("detail_reason")+"&start_time="+getQueryVariable("start_time")+"&end_time="+getQueryVariable("end_time")+"&teacher="+getQueryVariable("teacher")+"&phone_number="+getQueryVariable("phone_number")+"&duration="+getQueryVariable("duration")
+    }
+
+    setTimeout(function () {
+        document.getElementsByTagName("iframe")[0].contentWindow.document.getElementById("btn_qj_ck").onclick = getDetail;
+    }, 1000);
+</script>
+<div class="shade"></div>
+</body><!--jQuery.validation --></html>

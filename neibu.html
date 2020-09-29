@@ -1,0 +1,569 @@
+<!doctype html>
+
+<html lang="zh-CN">
+
+<head>
+
+    <title>迎新服务网</title>
+
+    <meta content="IE=edge" http-equiv="X-UA-Compatible"/>
+
+    <meta content="width=device-width, initial-scale=1" name="viewport">
+
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+
+    <meta content="zfsoft" name="Copyright"/>
+
+    <script type="text/javascript">
+
+        //全局变量
+
+        var _path = "/yxxt-v5";
+
+        var _systemPath = "/yxxt-v5";
+
+        var _stylePath = "/zftal-ui-v5-1.1.1";
+
+    </script>
+
+    <!--jQuery核心框架库 -->
+
+    <script src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/jquery-min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <!--jQuery浏览器检测 -->
+
+    <script src="http://fresh.ahau.edu.cn/yxxt-v5/js/browse/browse-judge.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+
+    <!--Bootstrap布局框架-->
+
+    <!--Bootstrap布局框架-->
+
+    <link href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootstrap/css/bootstrap.min.css?ver=5619a2843a12798d229ca153546fb352"
+          rel="stylesheet"
+          type="text/css"/>
+
+    <script charset="utf-8"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootstrap/js/bootstrap.min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <!--zftal-ui样式-->
+
+    <!--jQuery常用工具扩展库：基础工具,资源加载工具,元素尺寸相关工具 -->
+
+    <script charset="utf-8"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.utils.contact-min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <!--jQuery基础工具库：$.browser,$.cookie,$.actual等 -->
+
+    <script charset="utf-8"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.plugins.contact-min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <!--jQuery自定义event事件库 -->
+
+    <script charset="utf-8"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.events.contact-min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <!--JavaScript对象扩展库：Array,Date,Number,String -->
+
+    <script charset="utf-8"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.extends.contact-2.min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <!--国际化js库 -->
+
+    <script charset="utf-8"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/i18n/jquery.i18n-min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <!--业务框架前端脚本国际化库-->
+
+    <script src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.zftal_zh_CN-min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <!--Bootbox弹窗插件-->
+
+    <script charset="utf-8"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootbox/bootbox.concat-min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <script charset="utf-8"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootbox/lang/zh_CN-min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <link href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootbox/css/bootbox-min.css?ver=5619a2843a12798d229ca153546fb352"
+          rel="stylesheet"
+          type="text/css"/>
+
+    <!--jQuery.chosen下拉框美化插件-->
+
+    <link href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/chosen/css/chosen-min.css?ver=5619a2843a12798d229ca153546fb352"
+          rel="stylesheet"
+          type="text/css"/>
+
+    <script charset="utf-8"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/utils/jquery.utils.pinyin.min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <script charset="utf-8"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/chosen/jquery.choosen.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <script charset="utf-8"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/chosen/jquery.chosen-additional.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <script charset="utf-8"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/chosen/lang/zh_CN-min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <!--IE浏览器html5、CSS3兼容插件-->
+
+    <!--[if lt IE 9]>
+
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/html5shiv.min.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+
+    <script type="text/javascript"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/respond.min.js?ver=5619a2843a12798d229ca153546fb352"
+            charset="utf-8"></script>
+
+    <![endif]-->
+    <script src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/imageViewer/js/viewerjs/viewer.v0.1.0.js"
+            type="text/javascript"></script>
+
+    <link href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/imageViewer/js/viewerjs/viewer.v0.1.0.css"
+          rel="stylesheet"
+          type="text/css">
+
+    <script charset="utf-8" src="http://fresh.ahau.edu.cn/yxxt-v5/js/plugins/areaSelection/area-selection.js"
+            type="text/javascript"></script>
+
+    <link href="http://fresh.ahau.edu.cn/yxxt-v5/js/plugins/areaSelection/area-selection.css" rel="stylesheet"
+          type="text/css"/>    <!--业务框架jQuery全局设置和通用函数库-->
+
+    <script src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/zftal/jquery.zftal.contact-min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <script src="http://fresh.ahau.edu.cn/yxxt-v5/js/global/public-zx.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <!--laydate日期控件-->
+
+    <script charset="utf-8"
+            src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/laydate-v5.0.9/laydate.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+
+    <link href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/laydate-v5.0.9/theme/zfcolor/laydate.css?ver=5619a2843a12798d229ca153546fb352"
+          rel="stylesheet"
+          type="text/css"/>
+    <script src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/jquery.dragsort/jquery.dragsort.min.js"></script>
+
+    <style type="text/css">
+
+        body, html {
+
+            height: 100%;
+
+            width: 100%;
+
+            position: relative;
+
+        }
+
+    </style>
+
+
+    <meta content="webkit" name="renderer"/>
+
+    <meta content="text/html; charset=UTF-8" http-equiv="Content-Type"/>
+
+    <meta content="width=device-width, initial-scale=1.0, user-scalable=no" name="viewport">
+
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+    <meta content="always" name="referrer">
+
+    <meta content="zfsoft" name="Copyright"/>
+
+    <meta content="新生服务网" name="description">
+
+    <meta content="zhengfang" name="author">
+
+    <meta content="新生服务网" name="keyword">
+
+    <meta content="IE=edge" http-equiv="X-UA-Compatible">
+
+    <meta content=”webkit” name=”renderer”>
+
+    <meta content="width=device-width, initial-scale=1.0" name="viewport">
+
+    <link href="style.css" rel="stylesheet"
+          type="text/css">
+
+    <script src="http://fresh.ahau.edu.cn/yxxt-v5/js/zzfw/main/main.js" type="text/javascript"></script>
+
+    <!--密码强度展示插件-->
+
+    <script src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/js/utils/jquery.utils.strength.min.js?ver=5619a2843a12798d229ca153546fb352"
+            type="text/javascript"></script>
+    <!--<script type="text/javascript" src="http://res.wx.qq.com/open/js/jweixin-1.2.0.js"></script>-->
+
+    <style>
+
+        .loading-box {
+
+            position: fixed;
+
+            top: 0;
+
+            bottom: 0;
+
+            left: 0;
+
+            right: 0;
+
+            background: rgba(0, 0, 0, 0.2);
+
+            z-index: 998;
+
+        }
+
+        .loading-img {
+
+            position: fixed;
+
+            top: 50%;
+
+            left: 50%;
+
+            width: 5%;
+
+            transform: translate(-50%, -50%);
+
+            border-radius: 6px;
+
+            z-index: 999;
+
+        }
+
+    </style>
+
+    <script>
+
+        function loadingTurnOff() {
+            $('#isShowLoading').hide();
+        }
+
+        function loadingTurnOn() {
+            $('#isShowLoading').show();
+        }
+
+    </script>
+
+
+</head>
+<body class="service-page home-page basic-skin">
+<!-- page content start -->
+
+<ul class="nav nav-tabs" id="myTab" role="tablist">
+    <li class="active"><a data-toggle="tab" link="qjTab"> 请假 </a></li>
+    <li><a data-toggle="tab" link="xjTab"> 销假 </a></li>
+</ul>
+
+<div class="formbox" style="min-height:490px; padding: 15px;">
+    <div class="bootstrap-table">
+        <div class="fixed-table-toolbar">
+            <div class="bs-bars pull-left">
+                <div class="row sl_add_btn" id="but_ancd">
+                    <div class="col-sm-12">
+                        <div class="btn-toolbar" role="toolbar" style="float:right;">
+                            <div class="btn-group">
+                                <button class="btn btn-default qj" id="btn_qj_zj" type="button">
+                                    <i class="bigger-100 glyphicon glyphicon-plus"></i>申请假条
+                                </button>
+                                <button class="btn btn-default qj" id="btn_qj_ck" onclick="" type="button">
+                                    <i class="bigger-100 glyphicon glyphicon-flag"></i>查看假条
+                                </button>
+                                <button class="btn btn-default qj" id="btn_qj_sc" type="button">
+                                    <i class="bigger-100 glyphicon glyphicon-remove"></i>撤回假条
+                                </button>
+                                <button class="btn btn-default xj" id="btn_xj_ck" style="display: none;" type="button">
+                                    <i class="bigger-100 glyphicon glyphicon-flag"></i>查看销假假条
+                                </button>
+                                <button class="btn btn-default xj" id="btn_xj_sc" style="display: none;" type="button">
+                                    <i class="bigger-100 glyphicon glyphicon-remove"></i>撤回销假假条
+                                </button>
+                            </div>
+                        </div>
+                    </div>
+                </div>
+            </div>
+            <div class="columns columns-right btn-group pull-right">
+                <button class="btn btn-default" name="refresh" title="刷新" type="button"><i
+                        class="glyphicon glyphicon-refresh icon-refresh"></i></button>
+                <button class="btn btn-default" name="toggle" title="切换" type="button"><i
+                        class="glyphicon glyphicon-list-alt icon-list-alt"></i></button>
+                <div class="keep-open btn-group" title="列">
+                    <button class="btn btn-default dropdown-toggle" data-toggle="dropdown" type="button"><i
+                            class="glyphicon glyphicon-th icon-th"></i> <span class="caret"></span></button>
+                    <ul class="dropdown-menu" role="menu">
+                        <li><label><input checked="checked" data-field="qjlxmc" type="checkbox" value="1"> 请假类型</label>
+                        </li>
+                        <li><label><input checked="checked" data-field="sc" type="checkbox" value="2"> 请假时长（小时）</label>
+                        </li>
+                        <li><label><input checked="checked" data-field="nr" type="checkbox" value="3"> 请假事由</label></li>
+                        <li><label><input checked="checked" data-field="kssj" type="checkbox" value="4"> 开始时间</label>
+                        </li>
+                        <li><label><input checked="checked" data-field="jssj" type="checkbox" value="5"> 结束时间</label>
+                        </li>
+                        <li><label><input checked="checked" data-field="fqsj" type="checkbox" value="6"> 发起时间</label>
+                        </li>
+                        <li><label><input checked="checked" data-field="shztmc" type="checkbox" value="7"> 处理进度</label>
+                        </li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+        <div class="fixed-table-container" style="padding-bottom: 0px;">
+            <div class="fixed-table-header" style="display: none;">
+                <table></table>
+            </div>
+            <div class="fixed-table-body">
+                <div class="fixed-table-loading" style="top: 0px; display: none;"><i
+                        class="fa fa-spinner fa-spin fa-2x"></i>载入中...
+                </div>
+                <table class="table table-hover table-striped" id="tabGrid" style="margin-top: 0px;">
+                    <thead style="display: none;">
+                    <tr>
+                        <th class="bs-checkbox " data-field="0" style="width: 36px; " tabindex="0">
+                            <div class="th-inner "><input name="btSelectAll" type="checkbox"></div>
+                            <div class="fht-cell"></div>
+                        </th>
+                        <th data-field="qjlxmc" style="" tabindex="0">
+                            <div class="th-inner sortable both">请假类型</div>
+                            <div class="fht-cell"></div>
+                        </th>
+                        <th data-field="sc" style="" tabindex="0">
+                            <div class="th-inner ">请假时长（小时）</div>
+                            <div class="fht-cell"></div>
+                        </th>
+                        <th data-field="nr" style="" tabindex="0">
+                            <div class="th-inner ">请假事由</div>
+                            <div class="fht-cell"></div>
+                        </th>
+                        <th data-field="kssj" style="" tabindex="0">
+                            <div class="th-inner sortable both">开始时间</div>
+                            <div class="fht-cell"></div>
+                        </th>
+                        <th data-field="jssj" style="" tabindex="0">
+                            <div class="th-inner sortable both">结束时间</div>
+                            <div class="fht-cell"></div>
+                        </th>
+                        <th data-field="fqsj" style="" tabindex="0">
+                            <div class="th-inner sortable both">发起时间</div>
+                            <div class="fht-cell"></div>
+                        </th>
+                        <th data-field="shztmc" style="" tabindex="0">
+                            <div class="th-inner sortable both">处理进度</div>
+                            <div class="fht-cell"></div>
+                        </th>
+                    </tr>
+                    </thead>
+                    <tbody>
+                    <tr class="" data-index="0" data-uniqueid="">
+                        <td colspan="8" style="padding: 8px">
+                            <div class="card-views">
+                                <div class="card-view ">
+                                    <label>
+                                        <input data-index="0" name="btSelectItem" type="checkbox">
+                                    </label></div>
+                                <div class="card-view"><span class="title" style="">请假类型</span><span
+                                        class="value">事假</span></div>
+                                <div class="card-view"><span class="title" style="">请假时长（小时）</span><span class="value" id="duration"></span>
+                                </div>
+                                <div class="card-view"><span class="title" style="">请假事由</span><span class="value" id="reason"></span>
+                                </div>
+                                <div class="card-view"><span class="title" style="">开始时间</span><span class="value" id="start_time"></span>
+                                </div>
+                                <div class="card-view"><span class="title" style="">结束时间</span><span class="value" id="end_time"></span>
+                                </div>
+                                <div class="card-view"><span class="title" style="">发起时间</span><span class="value" id="submit_time"></span>
+                                </div>
+                                <div class="card-view"><span class="title" style="">处理进度</span><span class="value">审核通过 | <a
+                                        class="sqxj" data-id="B0235D05019501F7E0532691D572773D"
+                                        href="javascript:void(0);"><u>申请销假</u></a></span></div>
+                            </div>
+                        </td>
+                    </tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="fixed-table-footer" style="display: none;">
+                <table>
+                    <tbody>
+                    <tr></tr>
+                    </tbody>
+                </table>
+            </div>
+            <div class="fixed-table-pagination" style="display: block;">
+                <div class="pull-left pagination-detail"><span
+                        class="pagination-info">显示第 1 到第 1 条记录，总共 1 条记录</span><span class="page-list"
+                                                                                    style="display: none;">每页显示 <span
+                        class="btn-group dropup"><button class="btn btn-xs btn-default dropdown-toggle"
+                                                         data-toggle="dropdown"
+                                                         type="button"><span class="page-size">15</span> <span
+                        class="caret"></span></button><ul class="dropdown-menu" role="menu"><li class="active"><a
+                        href="javascript:void(0)">15</a></li></ul></span> 条记录</span></div>
+                <div class="pull-right pagination" style="display: none;">
+                    <ul class="pagination">
+                        <li class="page-pre"><a href="javascript:void(0)">‹</a></li>
+                        <li class="page-number active"><a href="javascript:void(0)">1</a></li>
+                        <li class="page-next"><a href="javascript:void(0)">›</a></li>
+                    </ul>
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="clearfix"></div>
+</div>
+<!--laydate日期控件-->
+<script charset="utf-8"
+        src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/laydate-v5.0.9/laydate.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+<link href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/laydate-v5.0.9/theme/zfcolor/laydate.css?ver=5619a2843a12798d229ca153546fb352"
+      rel="stylesheet"
+      type="text/css">
+<link href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootstrap-table/bootstrap-table.min.css?ver=5619a2843a12798d229ca153546fb352"
+      rel="stylesheet"
+      type="text/css">
+<script charset="utf-8"
+        src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootstrap-table/bootstrap-table.min.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+<script charset="utf-8"
+        src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootstrap-table/bootstrap-table-zh-CN.min.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+<script charset="utf-8"
+        src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootstrap-table/extensions/cookie/bootstrap-table-cookie.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+<script charset="utf-8"
+        src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootstrap-table/extensions/bootstrap-table-contextmenu.min.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+<!--<script type="text/javascript" src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/bootstrap-table/bootstrap.table.additional.js?ver=5619a2843a12798d229ca153546fb352" charset="utf-8"></script>-->
+
+<script type="text/javascript">
+    $(function ($) {
+        //搜索按钮查询时禁用
+        bindSearchBtn();
+
+        function bindSearchBtn() {
+            var $btn = arguments[0] == null ? $("button[name='search_button']") : $(arguments[0]);
+            var $tab = arguments[1] == null ? $("#tabGrid") : $(arguments[1]);
+
+            if ($btn.length > 0 && $tab.length > 0) {
+
+                $btn.disabled();
+
+                $(document).off("load-success.bs.table load-error.bs.table", $tab).on("load-success.bs.table load-error.bs.table", $tab, function (e) {
+                    $btn.enabled();
+                }).off("refresh.bs.table", $tab).on("refresh.bs.table", $tab, function (e) {
+                    $btn.disabled();
+                });
+            }
+        }
+    });
+</script>
+<script src="http://fresh.ahau.edu.cn/yxxt-v5/js/qj/xsqj/xsqjPaged.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+<script src="http://fresh.ahau.edu.cn/yxxt-v5/js/qj/xsqj/xsqj.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+<style type="text/css">
+    .text-left {
+        text-align: left !important;
+    }
+</style>
+
+<!-- page content end -->
+
+<!--jQuery.validation -->
+<link href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/validation/css/jquery.validate-min.css?ver=5619a2843a12798d229ca153546fb352"
+      rel="stylesheet"
+      type="text/css">
+<script charset="utf-8"
+        src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/validation/js/jquery.validate-min.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+<script charset="utf-8"
+        src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/validation/js/jquery.validate.contact-min.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+<script charset="utf-8"
+        src="http://fresh.ahau.edu.cn/yxxt-v5/js/plugins/validation/jquery.validate.methods.contact-min.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+<script charset="utf-8"
+        src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/validation/lang/zh_CN-min.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+<script type="text/javascript">
+    jQuery(function ($) {
+        $('[data-toggle*="validation"]').trigger("validation");
+    });
+</script>
+</body>
+
+<!--jQuery.validation -->
+
+<link href="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/validation/css/jquery.validate-min.css?ver=5619a2843a12798d229ca153546fb352"
+      rel="stylesheet"
+      type="text/css"/>
+
+<script charset="utf-8"
+        src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/validation/js/jquery.validate-min.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+
+<script charset="utf-8"
+        src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/validation/js/jquery.validate.contact-min.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+
+<script charset="utf-8"
+        src="http://fresh.ahau.edu.cn/yxxt-v5/js/plugins/validation/jquery.validate.methods.contact-min.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+
+<script charset="utf-8"
+        src="http://fresh.ahau.edu.cn/zftal-ui-v5-1.1.1/assets/plugins/validation/lang/zh_CN-min.js?ver=5619a2843a12798d229ca153546fb352"
+        type="text/javascript"></script>
+
+<script type="text/javascript">
+
+    jQuery(function ($) {
+
+        $('[data-toggle*="validation"]').trigger("validation");
+
+    });
+
+</script>
+<script>
+    function getQueryVariable(variable) {
+        var query = window.location.search.substring(1);
+        var vars = query.split("&");
+        for (var i = 0; i < vars.length; i++) {
+            var pair = vars[i].split("=");
+            if (pair[0] === variable) {
+                return pair[1];
+            }
+        }
+        return false;
+    }
+</script>
+<script>
+    document.getElementById("duration").innerHTML=decodeURI(getQueryVariable("duration"))
+    document.getElementById("reason").innerHTML=decodeURI(getQueryVariable("reason"))
+    document.getElementById("start_time").innerHTML=decodeURI(getQueryVariable("start_time"))
+    document.getElementById("end_time").innerHTML=decodeURI(getQueryVariable("end_time"))
+    document.getElementById("submit_time").innerHTML=decodeURI(getQueryVariable("submit_time"))
+</script>
+
+</html>
